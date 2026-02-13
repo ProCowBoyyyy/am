@@ -1,0 +1,65 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+
+# Editor Files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Temporary Files
+*.tmp
+*.bak
+*.log
+
+# Node Modules (if you add any in future)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Environment Files
+.env
+.env.local
+.env.production
+
+# Firebase
+.firebase/
+.firebaserc
+firebase-debug.log
+firestore-debug.log
+ui-debug.log
+
+# Build Files
+dist/
+build/
+.cache/
+
+# Firebase Config (IMPORTANT: Consider if you want to commit this)
+# Uncomment the line below if you don't want to share your Firebase config
+# firebase-config.js
+
+# IDE specific files
+.classpath
+.project
+.settings/
+
+# OS generated files
+ehthumbs.db
+Icon?
+
+# Logs
+logs/
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
